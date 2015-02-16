@@ -1,0 +1,10 @@
+<!--A simple base template index-->
+{{content_page}}
+<p id="hello"></p>
+<script language="javascript">
+
+//Load ajax data from the server.
+
+	$('#hello').append('Hello World');
+
+</script>
